@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Nelo Loveday Edhughoro · Senior QA Engineer</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="contact-card">
+    <div class="contact-header">
+      <h1>Nelo Loveday Edhughoro</h1>
+      <div class="subtitle">Senior QA Engineer | ISTQB Certified</div>
+      <div class="badge">
+        <i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i> Lagos, Nigeria · Open to Remote/Canada
+      </div>
+    </div>
+
+    <div class="contact-content">
+      <!-- Left side: Contact Information -->
+      <div class="contact-info">
+        <div class="info-title">
+          <i class="fas fa-address-card"></i> Contact Information
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="info-details">
+            <h3>Phone</h3>
+            <a href="tel:+2348028495281">+234-802-849-5281</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-envelope"></i></div>
+          <div class="info-details">
+            <h3>Email</h3>
+            <a href="mailto:lovenelo247@gmail.com">lovenelo247@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-map-pin"></i></div>
+          <div class="info-details">
+            <h3>Location</h3>
+            <span>Lagos, Nigeria (Open to relocation to Canada)</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-globe"></i></div>
+          <div class="info-details">
+            <h3>Work Preference</h3>
+            <span>Remote · Hybrid · Relocation to Canada</span>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <h3><i class="fas fa-share-alt"></i> Connect with me</h3>
+          <div class="social-grid">
+            <a href="https://www.linkedin.com/in/nelo-loveday-edhughoro-mba-istqb®-169135156" class="social-item linkedin" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/lovenelo247" class="social-item github" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://wa.me/2348028495281" class="social-item whatsapp" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="mailto:lovenelo247@gmail.com" class="social-item email">
+              <i class="fas fa-envelope"></i> Email
+            </a>
+            <!-- Removed Twitter and Telegram -->
+          </div>
+        </div>
+
+        <div class="quick-actions">
+          <h3>Quick Actions</h3>
+          <div class="action-buttons">
+            <a href="#" class="action-btn cv">
+              <i class="fas fa-file-pdf"></i> Download CV
+            </a>
+            <a href="index.html" class="action-btn portfolio">
+              <i class="fas fa-briefcase"></i> View Portfolio
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side: Contact Form -->
+      <div class="contact-form">
+        <div class="form-title">
+          <i class="fas fa-paper-plane"></i> Send a Message
+        </div>
+
+        <form id="contactForm" action="https://formsubmit.co/lovenelo247@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New message from Contact Page - LinkedIn">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_next" value="">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label><i class="fas fa-user"></i> First Name</label>
+              <input type="text" name="first_name" placeholder="John" required>
+            </div>
+            <div class="form-group">
+              <label><i class="fas fa-user"></i> Last Name</label>
+              <input type="text" name="last_name" placeholder="Doe" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" name="email" placeholder="john.doe@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label><i class="fas fa-tag"></i> Subject</label>
+           <select name="subject" required aria-label="Message subject">
+  <option value="" disabled selected>Select a subject</option>
+  <option value="Job Opportunity">💼 Job Opportunity</option>
+  <option value="Collaboration">🤝 Collaboration</option>
+  <option value="Consulting">🔍 Consulting / Freelance</option>
+  <option value="Mentorship">📚 Mentorship / Advice</option>
+  <option value="General Inquiry">💬 General Inquiry</option>
+</select>
+          </div>
+
+          <div class="form-group">
+            <label><i class="fas fa-comment"></i> Message</label>
+            <textarea name="message" rows="5" placeholder="Hello Nelo, I came across your profile on LinkedIn and would like to discuss..." required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-send"></i> Send Message
+          </button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.8rem; color: #94a3b8;">
+          <i class="fas fa-shield-alt"></i> Your information is secure and will never be shared
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- External JavaScript -->
+  <script src="contact.js"></script>
+</body>
+</html>
